@@ -1,17 +1,17 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import styles from './index.module.css';
+import indexStyles from './index.module.css';
 
 const Flavour = props =>
-  <Link to={props.to} className={styles.imgContainer} >
+  <Link to={props.to} className={indexStyles.imgContainer} >
     <div>
-      <img src={props.url} className={styles.flavour} alt={props.name}/>
-      <div className={styles.flavourName}>{props.name}</div>
+      <img src={props.url} className={indexStyles.flavour} alt={props.name}/>
+      <div className={indexStyles.flavourName}>{props.name}</div>
     </div>
   </Link>
 
 export default () =>
- <div className={styles.flexContainer} >
+ <div className={indexStyles.flexContainer} >
    <Flavour
      name='black raspberry'
      url='https://s3.amazonaws.com/pinkberry-menu/blackberry.jpg'
