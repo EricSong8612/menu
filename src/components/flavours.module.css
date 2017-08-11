@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-.flexContainer {
+/*.flexContainer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   min-width: 300px;
   font-family: sans-serif;
-}
+}*/
 
 .imgContainer {
   width: 32%;

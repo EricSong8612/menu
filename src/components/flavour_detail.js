@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './detail.module.css';
 import Link from 'gatsby-link';
+import styles from './detail.module.css';
 
 export default (props) =>
   <div style={{margin: '0 auto', minWidth: '200px', maxWidth: '1000px'}}>

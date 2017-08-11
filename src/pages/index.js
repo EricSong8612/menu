@@ -1,17 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import indexStyles from './index.module.css';
-
-const Flavour = props =>
-  <Link to={props.to} className={indexStyles.imgContainer} >
-    <div>
-      <img src={props.url} className={indexStyles.flavour} alt={props.name}/>
-      <div className={indexStyles.flavourName}>{props.name}</div>
-    </div>
-  </Link>
+import Flavour from '../components/flavours';
 
 export default () =>
- <div className={indexStyles.flexContainer} >
+ <div style={{display: 'flex', flexFlow: 'row wrap', justifyContent: 'space-around', alignItems: 'center', minWidth: '300px', fontFamily: 'sans-serif'}} >
    <Flavour
      name='black raspberry'
      url='https://s3.amazonaws.com/pinkberry-menu/blackberry.jpg'
