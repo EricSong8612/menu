@@ -14,7 +14,7 @@ export default (props) =>
       <p className={styles.details}>{props.description}</p>
       <p className={styles.detailItem}>NUTRITION</p>
       <p className={styles.details}>{props.nutrition}</p>
-      <Link to='/' className={styles.primaryBtn}>Back to menu</Link>
+      <Link to='/' className={styles.primaryBtn}><span>Back to menu</span></Link>
     </div>
     <div style={{clear: 'both'}}></div>
   </div>
