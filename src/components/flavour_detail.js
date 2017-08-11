@@ -9,7 +9,7 @@ export default (props) =>
       <h2 className={styles.headline}>{props.headline}</h2>
     </div>
     <div className={styles.right}>
-      <h1 className={styles.flavourName}>{props.name}</h1>
+      <h1 className={styles.name}>{props.name}</h1>
       <p className={styles.detailItem}>FLAVOUR DESCRIPTION</p>
       <p className={styles.details}>{props.description}</p>
       <p className={styles.detailItem}>NUTRITION</p>

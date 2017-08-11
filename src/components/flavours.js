@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import styles from './flavours.module.css';
+import styles from './detail.module.css';
 
 export default (props) =>
   <Link to={props.to} className={styles.imgContainer} >
