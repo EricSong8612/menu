@@ -37,9 +37,4 @@ export default () =>
      url='https://s3.amazonaws.com/pinkberry-menu/bloodorange.jpg'
      to='bloodorange'
    />
-   <Flavour
-     name='blood orange'
-     url='https://s3.amazonaws.com/pinkberry-menu/bloodorange.jpg'
-     to='bloodorange'
-   />
  </div>
