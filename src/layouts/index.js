@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import Link from 'gatsby-link';
 
 export default ({ children }) =>
@@ -7,4 +7,4 @@ export default ({ children }) =>
       <img src='https://s3.amazonaws.com/pinkberry-menu/logo.png' alt='logo'/>
     </Link>
     {children()}
-  </div>
+  </div>*/
